@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #EDE6E3;
+}
+
+#page-landing {
+    
+    text-align: center;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+div#title{
+    background-color: #7a1b30;
+    text-align: center;
+    min-height: 5vh;
+}
+
+#container {
+    margin: auto;
+    text-align: center;
+    
+    width: min(90%, 112rem);
+}
+
+.signDiv{
+    background-color: #457A1B;
+}
