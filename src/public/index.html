@@ -20,22 +20,23 @@
                     <input type="text" id="userPassword" value=""></input> <br>
                     <input type="submit" id="signInButton" value="login"></input>
                 </form>
-            </div>
-            <div id="signUpDiv" class="signDiv">
+            </div><div id="signUpDiv" class="signDiv">
                 <label id="signUpLabel">Crie sua conta</label>
-                <form>
+                <form onsubmit="saveInfo()">
                     <label class="signUpText">Nome</label>
-                    <input type="text" id="newUserName" value=""> <br>
+                    <input name="newUserName" type="text" id="newUserName" value=""> <br>
                     <label class="signUpText">Email</label>
-                    <input type="text" id="newUserEmail" value=""> <br>
+                    <input name="newUserEmail" type="text" id="newUserEmail" value=""> <br>
                     <label class="signUpText">Senha</label>
-                    <input type="text" id="newUserPassword" value=""> <br>
+                    <input name="newUserPassword" type="text" id="newUserPassword" value=""> <br>
                     <label class="signUpText">Repita a senha</label>
-                    <input type="text" id="newUserConfirmPassword" value=""> <br>
+                    <input name="newUserConfirmPassword" type="text" id="newUserConfirmPassword" value=""> <br>
                     <input type="submit" id="signUpButton" value="login">
                 </form>
             </div>
+            
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

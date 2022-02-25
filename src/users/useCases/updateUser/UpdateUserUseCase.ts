@@ -28,7 +28,7 @@ class UpdateUserUseCase {
         user.email = email;
         user.id = id;
 
-        await this.usersRepository.
+        /*await this.usersRepository.*/
 
         return user;
     }

@@ -5,30 +5,36 @@
 
 body {
     height: 100vh;
-    background-color: #EDE6E3;
+    background-color: ;
 }
 
 #page-landing {
     
     text-align: center;
     min-height: 100vh;
+    background-color: ;
 
     display: flex;
 }
 
 div#title{
-    background-color: #7a1b30;
+    background-color: ;
     text-align: center;
     min-height: 5vh;
 }
 
 #container {
     margin: auto;
-    text-align: center;
-    
+    text-align: center;    
     width: min(90%, 112rem);
+    background-color: ;
 }
 
 .signDiv{
-    background-color: #457A1B;
+    background-color: ;
+    width: 50vh;
+    height: 30vh;
+    display: inline-block;
+    text-align: center;  
+    margin: 80px;
 }
